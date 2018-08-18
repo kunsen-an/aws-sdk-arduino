@@ -1,3 +1,4 @@
+#ifdef ESP8266
 #include <stdio.h>
 /* application.h is Esp8266's standard library. Defines the Arduino String
  * object, the Arduino delay() procedure, and the Esp8266 TCPClient. */
@@ -156,3 +157,4 @@ char* updateCurTime(void) {
     timeout_busy=0;     // reset timeout
     return dateStamp;   // Return latest or last good dateStamp
 }
+#endif  /* ESP8266 */

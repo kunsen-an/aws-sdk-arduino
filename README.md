@@ -1,6 +1,5 @@
-forked from svdgraaf/aws-sdk-arduino
-I've restructed the files to use it for esp8266 and make the use of https://github.com/odelot/aws-mqtt-websockets library easier.
+forked from odelot/aws-sdk-arduino
+https://github.com/odelot/aws-sdk-arduino
 
-https://github.com/odelot/aws-mqtt-websockets depends of sha256 and Utils
+I've slightly modified ESP8266AWSImplementations.{h,cpp} to adapt ESP32
 
-if you want to know more about this library, visit https://github.com/svdgraaf/aws-sdk-arduino
